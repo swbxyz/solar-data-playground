@@ -12,15 +12,8 @@
 
 [ ] Github account
 [ ] VS Code Installed
-[ ] Git installed
 [ ] [Install Node JS minimum 18]()
 [ ] Install NVM: `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash`
-
-### Create solar data scraper script
-
-### Create a database
-
-### Create an API
 
 ### Build web app
 

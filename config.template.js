@@ -1,4 +1,4 @@
-const solarEdgeSites = [
+exports.solarEdgeSites = [
   {
     uuid: "your_house_name_or_uuid",
     key: "your_key_here",
