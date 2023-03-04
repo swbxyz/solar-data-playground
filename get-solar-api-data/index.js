@@ -40,7 +40,7 @@ getSolarEdgeDataOverview(config.solarEdgeSites);
 
 // create function that accepts site key, id and outputs some data
 async function getSolarEdgeDataDetail(sites) {
-  console.log(sites);
+ // console.log(sites);
   // declare an empty array to add your data to
   let dataOutput = [];
 
