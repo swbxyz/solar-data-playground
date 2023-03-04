@@ -11,15 +11,18 @@ This simple collection of node scripts allows the user to perform basic get oper
 
 ## ✅ Prerequisites
 
+- MSB: Install git (comes with xCode if MacOS) or install HomeBrew.
+- Try: git --version to see if it is already installed
 - Install Node JS
 - Clone this repository
 - Open it in your favorite text editor
 - Make sure you have a solar edge API key and site id
-- Navigate to top level directory and install dependencies
+- Navigate to top level directory and install dependencies using npm install  
 
 ```sh
 npm install
 ```
+- MSB: results: (installed 9 packages, 1 package looking for funding - run 'npm fund' for details)
 
 - Optional: if you plan to make changes go ahead and checkout a new branch
 
@@ -27,11 +30,17 @@ npm install
 git checkout -b feature/your-branch-title/your-name-or-initials
 ```
 
+-- MSB: What is my branch title? Is it the name of the folder created using "clone"? In this case: "solar-data-playground"
+-- MSB: Do I then need to cd to that space? Answer - no - it doesn't exist  "switched to a new branch 'feature/solar-data-playground/msb'
+
+
 ## 🏁 Use this repository
 
 ### 1/ Make sure you have updates your config file
+-- MSB: What does this mean?  Is the copy of config.template.js supposed to be named config.js ? Where does it go? Inside get-solar-api-data?  No. At top level (see below)
 
 Copy `config.template.js` and input your own values
+-- MSB: I edited the template, but also created copy as config.js at top level (solar-data-playground)
 
 **Example**
 
@@ -52,5 +61,5 @@ const solarEdgeSites = [
 ```sh
 node ./get-solar-api-data/index.js
 ```
-
+-- MSB: Getting error - sites not interable
 ### 3/
